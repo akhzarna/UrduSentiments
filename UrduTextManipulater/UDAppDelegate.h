@@ -14,6 +14,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) UINavigationController * nav;
+
 @property (strong, nonatomic) UDViewController *viewController;
 
 @end

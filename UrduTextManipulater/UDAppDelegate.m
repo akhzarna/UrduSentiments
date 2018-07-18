@@ -12,6 +12,8 @@
 
 @implementation UDAppDelegate
 
+@synthesize nav = _nav;
+
 - (void)dealloc
 {
     [_window release];
@@ -24,7 +26,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[UDViewController alloc] initWithNibName:@"UDViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    self.nav = [[UINavigationController alloc]initWithRootViewController:self.viewController];
+    [self.nav setNavigationBarHidden:YES];
+    self.window.rootViewController = self.nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0427A6D616B4454D006F57CA /* LexiconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0427A6D416B4454D006F57CA /* LexiconView.m */; };
+		0427A6D716B4454D006F57CA /* LexiconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0427A6D516B4454D006F57CA /* LexiconView.xib */; };
+		049E7E2616B449DA00A6B0D8 /* SharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E7E2516B449DA00A6B0D8 /* SharedManager.m */; };
+		04E213FB16BD976300DF4DEF /* outputlexeme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04E213FA16BD976300DF4DEF /* outputlexeme.txt */; };
+		04F0AC8916DC5A8400B64579 /* FinalResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0AC8716DC5A8400B64579 /* FinalResultsViewController.m */; };
+		04F0AC8A16DC5A8400B64579 /* FinalResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F0AC8816DC5A8400B64579 /* FinalResultsViewController.xib */; };
+		1886FA751886C1610023FD97 /* negative-words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1886FA731886C1610023FD97 /* negative-words.txt */; };
+		1886FA761886C1610023FD97 /* positive-words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1886FA741886C1610023FD97 /* positive-words.txt */; };
+		D7AD580519653FD0002149EA /* 00ur_pos.txt in Resources */ = {isa = PBXBuildFile; fileRef = D7AD580419653FD0002149EA /* 00ur_pos.txt */; };
+		F35616651EDEA3C600526146 /* RasailOMasail.txt in Resources */ = {isa = PBXBuildFile; fileRef = F35616641EDEA3C600526146 /* RasailOMasail.txt */; };
+		F3A95CC31EDFF3EB00FD969D /* BETTERONE1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3A95CC21EDFF3EB00FD969D /* BETTERONE1.jpg */; };
+		F3A95CC51EDFF3F500FD969D /* Fareza iqamat e deen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F3A95CC41EDFF3F500FD969D /* Fareza iqamat e deen.pdf */; };
 		FC474B6516A0238200A10008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC474B6416A0238200A10008 /* UIKit.framework */; };
 		FC474B6716A0238200A10008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC474B6616A0238200A10008 /* Foundation.framework */; };
 		FC474B6916A0238200A10008 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC474B6816A0238200A10008 /* CoreGraphics.framework */; };
@@ -18,9 +30,27 @@
 		FC474B7B16A0238200A10008 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC474B7A16A0238200A10008 /* Default-568h@2x.png */; };
 		FC474B7E16A0238200A10008 /* UDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC474B7D16A0238200A10008 /* UDViewController.m */; };
 		FC474B8116A0238200A10008 /* UDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC474B7F16A0238200A10008 /* UDViewController.xib */; };
+		FC474B8916A026B100A10008 /* urdu.txt in Resources */ = {isa = PBXBuildFile; fileRef = FC474B8816A026B100A10008 /* urdu.txt */; };
+		FCDA1F6616A31039009FBFA4 /* English.txt in Resources */ = {isa = PBXBuildFile; fileRef = FCDA1F6516A31039009FBFA4 /* English.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0427A6D316B4454D006F57CA /* LexiconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexiconView.h; sourceTree = "<group>"; };
+		0427A6D416B4454D006F57CA /* LexiconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LexiconView.m; sourceTree = "<group>"; };
+		0427A6D516B4454D006F57CA /* LexiconView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LexiconView.xib; sourceTree = "<group>"; };
+		049E7E2416B449DA00A6B0D8 /* SharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedManager.h; sourceTree = "<group>"; };
+		049E7E2516B449DA00A6B0D8 /* SharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedManager.m; sourceTree = "<group>"; };
+		04E213FA16BD976300DF4DEF /* outputlexeme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = outputlexeme.txt; sourceTree = "<group>"; };
+		04F0AC8616DC5A8400B64579 /* FinalResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalResultsViewController.h; sourceTree = "<group>"; };
+		04F0AC8716DC5A8400B64579 /* FinalResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalResultsViewController.m; sourceTree = "<group>"; };
+		04F0AC8816DC5A8400B64579 /* FinalResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinalResultsViewController.xib; sourceTree = "<group>"; };
+		1886FA731886C1610023FD97 /* negative-words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "negative-words.txt"; sourceTree = "<group>"; };
+		1886FA741886C1610023FD97 /* positive-words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "positive-words.txt"; sourceTree = "<group>"; };
+		D7AD580419653FD0002149EA /* 00ur_pos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 00ur_pos.txt; sourceTree = "<group>"; };
+		F35616641EDEA3C600526146 /* RasailOMasail.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RasailOMasail.txt; sourceTree = "<group>"; };
+		F3A95CC21EDFF3EB00FD969D /* BETTERONE1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BETTERONE1.jpg; sourceTree = "<group>"; };
+		F3A95CC41EDFF3F500FD969D /* Fareza iqamat e deen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Fareza iqamat e deen.pdf"; sourceTree = "<group>"; };
+		F3A95CC61EDFF46400FD969D /* manifesto.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = manifesto.docx; sourceTree = "<group>"; };
 		FC474B6016A0238200A10008 /* UrduTextManipulater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrduTextManipulater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC474B6416A0238200A10008 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FC474B6616A0238200A10008 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +67,8 @@
 		FC474B7C16A0238200A10008 /* UDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDViewController.h; sourceTree = "<group>"; };
 		FC474B7D16A0238200A10008 /* UDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDViewController.m; sourceTree = "<group>"; };
 		FC474B8016A0238200A10008 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/UDViewController.xib; sourceTree = "<group>"; };
+		FC474B8816A026B100A10008 /* urdu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urdu.txt; sourceTree = "<group>"; };
+		FCDA1F6516A31039009FBFA4 /* English.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = English.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0427A6D216B4433A006F57CA /* Urdu Lexicon */ = {
+			isa = PBXGroup;
+			children = (
+				1886FA731886C1610023FD97 /* negative-words.txt */,
+				1886FA741886C1610023FD97 /* positive-words.txt */,
+				04E213FA16BD976300DF4DEF /* outputlexeme.txt */,
+				F3A95CC61EDFF46400FD969D /* manifesto.docx */,
+			);
+			name = "Urdu Lexicon";
+			sourceTree = "<group>";
+		};
 		FC474B5516A0238100A10008 = {
 			isa = PBXGroup;
 			children = (
+				049E7E2416B449DA00A6B0D8 /* SharedManager.h */,
+				049E7E2516B449DA00A6B0D8 /* SharedManager.m */,
+				0427A6D216B4433A006F57CA /* Urdu Lexicon */,
+				FC474B8716A0268800A10008 /* Urdu Tagged Corpus */,
 				FC474B6A16A0238200A10008 /* UrduTextManipulater */,
 				FC474B6316A0238200A10008 /* Frameworks */,
 				FC474B6116A0238200A10008 /* Products */,
@@ -89,6 +136,12 @@
 				FC474B7D16A0238200A10008 /* UDViewController.m */,
 				FC474B7F16A0238200A10008 /* UDViewController.xib */,
 				FC474B6B16A0238200A10008 /* Supporting Files */,
+				0427A6D316B4454D006F57CA /* LexiconView.h */,
+				0427A6D416B4454D006F57CA /* LexiconView.m */,
+				0427A6D516B4454D006F57CA /* LexiconView.xib */,
+				04F0AC8616DC5A8400B64579 /* FinalResultsViewController.h */,
+				04F0AC8716DC5A8400B64579 /* FinalResultsViewController.m */,
+				04F0AC8816DC5A8400B64579 /* FinalResultsViewController.xib */,
 			);
 			path = UrduTextManipulater;
 			sourceTree = "<group>";
@@ -105,6 +158,19 @@
 				FC474B7A16A0238200A10008 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC474B8716A0268800A10008 /* Urdu Tagged Corpus */ = {
+			isa = PBXGroup;
+			children = (
+				F35616641EDEA3C600526146 /* RasailOMasail.txt */,
+				D7AD580419653FD0002149EA /* 00ur_pos.txt */,
+				FCDA1F6516A31039009FBFA4 /* English.txt */,
+				FC474B8816A026B100A10008 /* urdu.txt */,
+				F3A95CC41EDFF3F500FD969D /* Fareza iqamat e deen.pdf */,
+				F3A95CC21EDFF3EB00FD969D /* BETTERONE1.jpg */,
+			);
+			name = "Urdu Tagged Corpus";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +229,18 @@
 				FC474B7716A0238200A10008 /* Default.png in Resources */,
 				FC474B7916A0238200A10008 /* Default@2x.png in Resources */,
 				FC474B7B16A0238200A10008 /* Default-568h@2x.png in Resources */,
+				F3A95CC31EDFF3EB00FD969D /* BETTERONE1.jpg in Resources */,
 				FC474B8116A0238200A10008 /* UDViewController.xib in Resources */,
+				D7AD580519653FD0002149EA /* 00ur_pos.txt in Resources */,
+				F3A95CC51EDFF3F500FD969D /* Fareza iqamat e deen.pdf in Resources */,
+				FC474B8916A026B100A10008 /* urdu.txt in Resources */,
+				F35616651EDEA3C600526146 /* RasailOMasail.txt in Resources */,
+				FCDA1F6616A31039009FBFA4 /* English.txt in Resources */,
+				0427A6D716B4454D006F57CA /* LexiconView.xib in Resources */,
+				04E213FB16BD976300DF4DEF /* outputlexeme.txt in Resources */,
+				04F0AC8A16DC5A8400B64579 /* FinalResultsViewController.xib in Resources */,
+				1886FA751886C1610023FD97 /* negative-words.txt in Resources */,
+				1886FA761886C1610023FD97 /* positive-words.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +254,9 @@
 				FC474B7116A0238200A10008 /* main.m in Sources */,
 				FC474B7516A0238200A10008 /* UDAppDelegate.m in Sources */,
 				FC474B7E16A0238200A10008 /* UDViewController.m in Sources */,
+				0427A6D616B4454D006F57CA /* LexiconView.m in Sources */,
+				049E7E2616B449DA00A6B0D8 /* SharedManager.m in Sources */,
+				04F0AC8916DC5A8400B64579 /* FinalResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +332,16 @@
 		FC474B8516A0238200A10008 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Maen Qteishat (783LH7PW7D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Maen Qteishat (783LH7PW7D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UrduTextManipulater/UrduTextManipulater-Prefix.pch";
 				INFOPLIST_FILE = "UrduTextManipulater/UrduTextManipulater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BBEE66AB-A8FB-482B-81A1-DA28379A2802";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BBEE66AB-A8FB-482B-81A1-DA28379A2802";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -263,10 +349,16 @@
 		FC474B8616A0238200A10008 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Maen Qteishat (783LH7PW7D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Maen Qteishat (783LH7PW7D)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UrduTextManipulater/UrduTextManipulater-Prefix.pch";
 				INFOPLIST_FILE = "UrduTextManipulater/UrduTextManipulater-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BBEE66AB-A8FB-482B-81A1-DA28379A2802";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BBEE66AB-A8FB-482B-81A1-DA28379A2802";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,6 +382,7 @@
 				FC474B8616A0238200A10008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
